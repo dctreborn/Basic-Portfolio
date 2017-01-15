@@ -1,0 +1,41 @@
+body {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content {
+	width: 960px;
+}
+
+.main {
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+.sidebar {
+	width: 270px;
+}
+
+
+#heading {
+	color: #4aaaa5;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+#label {
+	background-color: #4aaaa5;
+	color: 
+}
+
+#text {
+	color: #777777;
+}
+
+#main-header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+#footer {
+	background-color: #666666;
+}
