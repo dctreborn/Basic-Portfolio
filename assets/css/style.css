@@ -3,6 +3,10 @@ body {
 	align-content: center;
 }
 
+html {
+	height: 100%;
+}
+
 header {
 	clear: both;
 	background-color: #ffffff;
@@ -39,6 +43,11 @@ li {
 
 form {
 	font-size: 18px;
+}
+
+textarea {
+	min-width: 100%;
+	max-width: 100%;
 }
 
 
@@ -95,14 +104,10 @@ form {
 	padding-top: 25px;
 }
 
-#message {
-	overflow: scroll;
-	height: 200px;
-	line-height: 150%;
-}
-
 #button {
 	border: none;
+	padding: 5px 15px 5px 15px;
+	font-size: 16px;
 }
 
 #name {
