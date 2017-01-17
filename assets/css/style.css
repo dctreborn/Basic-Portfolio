@@ -1,9 +1,13 @@
+* {
+	margin: 0;
+}
+
 body {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	align-content: center;
 }
 
-html {
+html, body {
 	height: 100%;
 }
 
@@ -52,6 +56,12 @@ textarea {
 	max-height: 200px;
 }
 
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
 
 .field {
 	width: 100%;
@@ -68,6 +78,15 @@ textarea {
 	width: 960px;
 	margin: 0 auto;
 	color: #777777;
+}
+
+.footer, .push {
+	height: 4em;
+}
+
+.footer {
+	widows: 960px;
+	margin: 0 auto;
 }
 
 .main {
@@ -91,9 +110,28 @@ textarea {
 	font-family: "Georgia", "Times New Roman", Times, serif;
 }
 
-.label {
+#label, .label {
 	background-color: #4aaaa5;
 	color: #ffffff;
+}
+
+#box_left, #box_right {
+	position: relative;
+	height: 205px;
+	width: 275px;
+	margin: 20px;
+}
+
+#box_left {
+	float: left;
+}
+
+#box_right {
+	float: right;
+}
+
+#label {
+	width: 100%;
 }
 
 #pic {
@@ -133,8 +171,6 @@ textarea {
 	background-color: #666666;
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
-	position: absolute;
-	bottom: 0;
 	width: 100%;
 	color: #ffffff;
 	padding: 40px;
