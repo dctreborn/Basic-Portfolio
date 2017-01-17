@@ -31,14 +31,26 @@ section {
 	line-height: 200%;
 }
 
-#pic {
-	float: left;
-	padding-right: 30px;
+li {
+	padding-left: 20px;
+	list-style: none;
+	border-left: 1px solid #eeeeee;
 }
 
-#icon {
-	padding-right: 4px;
-	padding-top: 25px;
+form {
+	font-size: 18px;
+}
+
+
+.field {
+	width: 100%;
+	height: 32px;
+	font-size: 14px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	color: #777777;
+	margin-bottom: 15px;
 }
 
 .content {
@@ -73,6 +85,26 @@ section {
 	color: #ffffff;
 }
 
+#pic {
+	float: left;
+	padding-right: 30px;
+}
+
+#icon {
+	padding-right: 4px;
+	padding-top: 25px;
+}
+
+#message {
+	overflow: scroll;
+	height: 200px;
+	line-height: 150%;
+}
+
+#button {
+	border: none;
+}
+
 #name {
 	position: absolute;
 	bottom: 0;
@@ -88,13 +120,6 @@ section {
 	margin-top: 35px;
 	padding-left: 20px;
 }
-
-li {
-	padding-left: 20px;
-	list-style: none;
-	border-left: 1px solid #eeeeee;
-}
-
 
 #footer {
 	clear: both;
