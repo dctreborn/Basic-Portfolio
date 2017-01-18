@@ -36,11 +36,6 @@ h2 {
 	border-bottom: 2px solid #eeeeee;
 }
 
-section {
-	padding-top: 30px;
-	line-height: 200%;
-}
-
 li {
 	padding-left: 20px;
 	list-style: none;
@@ -49,6 +44,8 @@ li {
 
 form {
 	font-size: 18px;
+	padding-top: 30px;
+	line-height: 200%;
 }
 
 textarea {
