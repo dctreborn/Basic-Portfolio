@@ -111,7 +111,7 @@ textarea {
 	font-family: "Georgia", "Times New Roman", Times, serif;
 }
 
-#label, .label {
+#box_label, .label {
 	background-color: #4aaaa5;
 	color: #ffffff;
 }
@@ -122,20 +122,26 @@ textarea {
 	width: 275px;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	z-index: 1;
 }
 
 #box_left {
 	float: left;
-	padding-left: 20px;
 }
 
 #box_right {
 	float: right;
-	padding-right: 20px;
 }
 
-#label {
+#box_label {
 	width: 100%;
+	z-index: 2;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 24px;
 }
 
 #pic {
