@@ -60,6 +60,10 @@ a:visited { color: #777777; }
 a:hover { color: orange; }
 a:active { color: black; }
 
+a {
+	text-decoration: none;
+}
+
 .rotate:hover {
   -ms-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
@@ -68,8 +72,9 @@ a:active { color: black; }
   transform: rotate(-10deg);
 }
 
-a {
-	text-decoration: none;
+.padding {
+	padding-top: 30px;
+	line-height: 200%;
 }
 
 .wrapper {
