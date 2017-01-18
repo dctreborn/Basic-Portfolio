@@ -16,6 +16,7 @@ header {
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	height: 100px;
+	width: 100%;
 	margin-bottom: 50px;
 	position: relative;
 }
@@ -85,7 +86,7 @@ textarea {
 }
 
 .footer {
-	widows: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -119,15 +120,18 @@ textarea {
 	position: relative;
 	height: 205px;
 	width: 275px;
-	margin: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 #box_left {
 	float: left;
+	padding-left: 20px;
 }
 
 #box_right {
 	float: right;
+	padding-right: 20px;
 }
 
 #label {
@@ -171,7 +175,6 @@ textarea {
 	background-color: #666666;
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
-	width: 100%;
 	color: #ffffff;
 	padding: 40px;
 	font-size: 14px;
